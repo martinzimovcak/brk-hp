@@ -113,7 +113,15 @@ module.exports = options =>
           patterns: [
             { from: './src/main/webapp/content/', to: 'content/' },
             { from: './src/main/webapp/favicon.ico', to: 'favicon.ico' },
+            { from: './src/main/webapp/favicon-16x16.png', to: 'favicon-16x16.png' },
+            { from: './src/main/webapp/favicon-32x32.png', to: 'favicon-32x32.png' },
             { from: './src/main/webapp/manifest.webapp', to: 'manifest.webapp' },
+            { from: './src/main/webapp/android-chrome-192x192.png', to: 'android-chrome-192x192.png' },
+            { from: './src/main/webapp/android-chrome-512x512.png', to: 'android-chrome-512x512.png' },
+            { from: './src/main/webapp/apple-touch-icon.png', to: 'apple-touch-icon.png' },
+            { from: './src/main/webapp/mstile-150x150.png', to: 'mstile-150x150.png' },
+            { from: './src/main/webapp/safari-pinned-tab.svg', to: 'safari-pinned-tab.svg' },
+            { from: './src/main/webapp/browserconfig.xml', to: 'browserconfig.xml' },
             //add/remove third-party resources in this array
             { from: './src/main/webapp/robots.txt', to: 'robots.txt' },
           ],
