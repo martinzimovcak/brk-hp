@@ -1,0 +1,19 @@
+// Override Boostrap variables
+// Import Bootstrap source files from node_modules
+// @import 'node_modules/bootstrap/scss/bootstrap';
+
+@import url('./shared/css/plugins.css');
+@import url('./shared/css/style.css');
+@import url('./shared/css/skin-1.css');
+@import url('./shared/css/main.css');
+@import url('./shared/css/main-min.css');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
