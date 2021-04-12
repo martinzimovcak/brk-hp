@@ -6,7 +6,7 @@
   "license": "UNLICENSED",
   "scripts": {
     "heroku-prebuild": "npm install --dev",
-    "build": "webapp:build:prod",
+    "build": "npm run webapp:prod",
     "start": "dir && node src/app.js",
     "prettier:check": "prettier --check \"{,src/**/,webpack/}*.{md,json,yml,html,js,ts,tsx,css,scss}\"",
     "prettier:format": "prettier --write \"{,src/**/,webpack/}*.{md,json,yml,html,js,ts,tsx,css,scss}\"",
