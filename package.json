@@ -5,6 +5,9 @@
   "description": "Description for brkhp",
   "license": "UNLICENSED",
   "scripts": {
+    "heroku-prebuild": "npm install --dev",
+    "build": "webapp:build:prod",
+    "start": "dir && node src/app.js",
     "prettier:check": "prettier --check \"{,src/**/,webpack/}*.{md,json,yml,html,js,ts,tsx,css,scss}\"",
     "prettier:format": "prettier --write \"{,src/**/,webpack/}*.{md,json,yml,html,js,ts,tsx,css,scss}\"",
     "lint": "eslint . --ext .js,.ts,.jsx,.tsx",
@@ -13,7 +16,6 @@
     "clean-www": "rimraf target/classes/static/app/{src,target/}",
     "jest": "jest --coverage --logHeapUsage --maxWorkers=2 --config jest.conf.js",
     "jest:update": "npm run jest -- --updateSnapshot",
-    "start": "npm run webapp:prod && serve .",
     "start-tls": "npm run webapp:dev -- --env.tls",
     "sonar": "sonar-scanner",
     "pretest": "npm run lint",
