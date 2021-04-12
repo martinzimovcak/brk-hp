@@ -7,7 +7,7 @@
   "scripts": {
     "heroku-prebuild": "npm install --dev",
     "build": "npm run webapp:prod",
-    "start": "dir && node src/app.js",
+    "start": "serve target/classes/static",
     "prettier:check": "prettier --check \"{,src/**/,webpack/}*.{md,json,yml,html,js,ts,tsx,css,scss}\"",
     "prettier:format": "prettier --write \"{,src/**/,webpack/}*.{md,json,yml,html,js,ts,tsx,css,scss}\"",
     "lint": "eslint . --ext .js,.ts,.jsx,.tsx",
