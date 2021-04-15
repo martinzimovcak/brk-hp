@@ -117,7 +117,7 @@ const Home = () => {
       <div className="page-content bg-white">
         <div>
           <video id="bgvid" className="hide-mobile" playsInline autoPlay loop muted>
-            <source src="../../../content/video/bg.m4v" type="video/mp4" />
+            <source src="../../../content/video/bg01.mp4" type="video/mp4" />
             <source src="" type="video/webm" />
             <source src="" type="video/ogv" />
           </video>
