@@ -124,14 +124,44 @@ const Home = () => {
           <div className="viewport">
             <h1>Stavíme vaše sny</h1>
             <p>
-              Toto tady si Štěpán doplní................ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua.
+              Původní video Toto tady si Štěpán doplní................ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
             <button className="site-button">O NÁS</button>
             <button className="site-button">CO UMÍME</button>
           </div>
         </div>
-
+        <div>
+          <video id="bgvid" className="hide-mobile" playsInline autoPlay loop muted>
+            <source src="../../../content/video/bg.mov" type="video/mp4" />
+            <source src="" type="video/webm" />
+            <source src="" type="video/ogv" />
+          </video>
+          <div className="viewport2">
+            <h1>Stavíme vaše sny</h1>
+            <p>
+              Video ve formátu mp4 Toto tady si Štěpán doplní................ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+              do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <button className="site-button">O NÁS</button>
+            <button className="site-button">CO UMÍME</button>
+          </div>
+        </div>
+        <div>
+          <video id="bgvid" src="../../../content/video/bg.mov" className="hide-mobile" playsInline autoPlay loop muted>
+            <source src="" type="video/webm" />
+            <source src="" type="video/ogv" />
+          </video>
+          <div className="viewport3">
+            <h1>Stavíme vaše sny</h1>
+            <p>
+              Video ve formátu mov Toto tady si Štěpán doplní................ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+              do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <button className="site-button">O NÁS</button>
+            <button className="site-button">CO UMÍME</button>
+          </div>
+        </div>
         <div className="content-block">
           <div className="section-full content-inner const-about">
             <div className="container">
